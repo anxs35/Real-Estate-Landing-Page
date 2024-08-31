@@ -18,9 +18,15 @@ nav a{
     font-weight: bold;
     margin: 15px;
 }
+
+nav a:hover{
+  background: transparent;
+  margin: 1px;
+  color:rgb(158, 20, 20);
+}
 nav{
     margin-top: 20px;
-    margin-left: 430px;
+    margin-left: 400px;
     padding: 5px;
     display: flex;
     flex-direction: row;
